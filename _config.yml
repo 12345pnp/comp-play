@@ -1,0 +1,21 @@
+
+title: Computational Playground
+description: There are more things between heaven and earth than are dreamt of in your training set.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: 12345pnp
+    github:  12345pnp
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+
