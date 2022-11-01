@@ -13,7 +13,10 @@ minima:
 
 # Build settings
 theme: minima
-
+baseurl : ""
+url     : ""
+host_url  : "12345pnp.github.io"
+repository  : "12345pnp/comp-play"
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
