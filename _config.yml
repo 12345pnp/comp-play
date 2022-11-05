@@ -13,7 +13,7 @@ minima:
 
 # Build settings
 theme: minima
-baseurl : "/comp-play"
+baseurl : "/"
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
