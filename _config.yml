@@ -13,7 +13,6 @@ minima:
 
 # Build settings
 theme: minima
-baseurl : "/"
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
