@@ -1,16 +1,17 @@
 
 title: Computational Playground
+author:
+  name: Biplab P
+  email: biplabp@iisc.ac.in
 description: Surfing the solution space 🏄
 url: https://12345pnp.github.io/comp-play/
 show_excerpts: false # set to true to show excerpts on the homepage
 
+twitter_username: 12345pnp
+github_username:  12345pnp
+
 minima:
   date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    twitter: 12345pnp
-    github:  12345pnp
 
 # Build settings
 theme: minima
