@@ -14,7 +14,7 @@ categories: neural networks
   <tr>    
   </tr>
   <tr>    
-    <td><img src="/assets/images/neural_1d_approx/points.png" alt="x square into cos 8 pi x, that's where these come from"></td>        
+    <td><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/points.png" alt="x square into cos 8 pi x, that's where these come from"></td>        
   </tr>
 </table>
 
@@ -29,7 +29,7 @@ categories: neural networks
   <tr>    
   </tr>
   <tr>    
-    <td><img src="/assets/images/neural_1d_approx/points_painted.png" alt="Tired - Python. Wired - MS Paint"></td>        
+    <td><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/points_painted.png" alt="Tired - Python. Wired - MS Paint"></td>        
   </tr>
 </table>
 
@@ -44,7 +44,7 @@ Here is what the sigmoid function looks like.
   <tr>    
   </tr>
   <tr>    
-    <td><img src="/assets/images/neural_1d_approx/sigmoid.png" alt="The Sigmoid Freud"></td>  
+    <td><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/sigmoid.png" alt="The Sigmoid Freud"></td>  
   </tr>
 </table>
 
@@ -57,7 +57,7 @@ Here is what the sigmoid function looks like.
   <tr>    
   </tr>
   <tr>    
-    <td><img src="/assets/images/neural_1d_approx/sigmoid_stepf.png" alt="Sigmoid Stepford"></td>  
+    <td><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/sigmoid_stepf.png" alt="Sigmoid Stepford"></td>  
   </tr>
 </table>
 
@@ -71,16 +71,16 @@ Let's call the above shape an <i>indicator</i>. Note that it is just a sum of tw
   <tr>    
   </tr>
   <tr>    
-    <td ><img src="/assets/images/neural_1d_approx/indicator_approx_n10.png" alt="indicator_approx_n10"></td>
-    <td ><img src="/assets/images/neural_1d_approx/indicator_approx_n20.png" alt="indicator_approx_n20"></td>    
+    <td ><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/indicator_approx_n10.png" alt="indicator_approx_n10"></td>
+    <td ><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/indicator_approx_n20.png" alt="indicator_approx_n20"></td>    
   </tr>
   <tr>
     <th colspan = 1 scope="col" align = "center">$n = 30$</th>
     <th colspan = 1 scope="col" align = "center">$n = 40$</th>    
   </tr>
   <tr>    
-    <td ><img src="/assets/images/neural_1d_approx/indicator_approx_n30.png" alt="indicator_approx_n30"></td>
-    <td ><img src="/assets/images/neural_1d_approx/indicator_approx_n40.png" alt="indicator_approx_n40"></td>    
+    <td ><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/indicator_approx_n30.png" alt="indicator_approx_n30"></td>
+    <td ><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/indicator_approx_n40.png" alt="indicator_approx_n40"></td>    
   </tr>
 </table>
 
@@ -122,7 +122,7 @@ This superposition of sigmoids can be represented as a simple neural network, wi
   <tr>    
   </tr>
   <tr>    
-    <td style="width:65%"><img src="/assets/images/neural_1d_approx/neural_network_diagram.png" alt="Neural network with a single hidden layer and linear output layer"></td>
+    <td style="width:65%"><img src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/images/neural_1d_approx/neural_network_diagram.png" alt="Neural network with a single hidden layer and linear output layer"></td>
     <td>We have $\color{white}{\mathsf{L}}$ nodes, with sigmoid activation, each parametrized with weight $\color{white}{\mathsf{w_k}}$ and bias $\color{white}{\mathsf{b_k}}$, while the output layer is linear, with weight $\color{white}{\mathsf{v_k}}$ for each incoming result from the hidden layer</td>    
   </tr>
 </table>
@@ -240,7 +240,7 @@ Enough talk! Enough maths! Here are some animations -
   </tr>
   <tr>    
     <td><video controls="controls" width="100%" autoplay loop muted>
-  <source src="/assets/videos/neural_1d_approx/L5.mov">
+  <source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/L5.mov">
 </video></td>
   </tr>
 </table>
@@ -254,7 +254,7 @@ It's trying, but clearly, 5 nodes are not enough. More nodes!
   </tr>
   <tr>    
     <td><video controls="controls" width="100%" autoplay loop muted>
-  <source src="/assets/videos/neural_1d_approx/L25.mov">
+  <source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/L25.mov">
 </video></td>
   </tr>
 </table>
@@ -269,7 +269,7 @@ A lot more satisfying! But the fit isn't good enough towards the right. Let's in
   </tr>
   <tr>    
     <td><video controls="controls" width="100%" autoplay loop muted>
-  <source src="/assets/videos/neural_1d_approx/L30.mov">
+  <source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/L30.mov">
 </video></td>
   </tr>
 </table>
@@ -289,10 +289,10 @@ To cap it off here is our neural net trying to fit over some other functions.
   </tr>
   <tr>    
     <td><video controls="controls" width="100%" autoplay loop muted>
-  <source src="/assets/videos/neural_1d_approx/x2.mov">
+  <source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/x2.mov">
 </video></td>
 <td><video controls="controls" width="100%" autoplay loop muted>
-<source src="/assets/videos/neural_1d_approx/sin8pi.mov">
+<source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/sin8pi.mov">
 </video></td>
   </tr>
   <tr>
@@ -301,10 +301,10 @@ To cap it off here is our neural net trying to fit over some other functions.
   </tr>
   <tr>    
     <td><video controls="controls" width="100%" autoplay loop muted>
-  <source src="/assets/videos/neural_1d_approx/bell.mov">
+  <source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/bell.mov">
 </video></td>
 <td><video controls="controls" width="100%" autoplay loop muted>
-<source src="/assets/videos/neural_1d_approx/xplussinx.mov">
+<source src="https://raw.githubusercontent.com/12345pnp/comp-play/gh-pages/assets/videos/neural_1d_approx/xplussinx.mov">
 </video></td>
   </tr>
 </table>
