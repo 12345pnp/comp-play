@@ -3,7 +3,7 @@ layout: post
 title:  "1D Function Approximation Using a Neural Network"
 categories: neural networks
 ---
-<p><i>[Or how to create a neural network from scratch. This post was mainly inspired by <a href="http://neuralnetworksanddeeplearning.com/">Michael Nielsen's book</a> on neural networks, and the <a href="https://web.njit.edu/~usman/courses/cs675_fall18/10.1.1.441.7873.pdf">1989 paper</a> by Cybenko. You can jump straight to the companion <a href="https://github.com/12345pnp/function_approximation_using_neural_networks/blob/master/neural_approx_1D.ipynb">notebook</a> if you like reading code more than tedious prose and awful jokes.]</i></p>
+<p><i>[Or how to create a neural network from scratch. This post was mainly inspired by <a href="http://neuralnetworksanddeeplearning.com/">Michael Nielsen's book</a> on neural networks, and the <a href="https://web.njit.edu/~usman/courses/cs675_fall18/10.1.1.441.7873.pdf">1989 paper</a> by Cybenko. You can jump straight to the companion <a href="https://colab.research.google.com/github/12345pnp/function_approximation_using_neural_networks/blob/master/neural_approx_1D.ipynb">notebook</a> if you like reading code more than tedious prose and awful jokes.]</i></p>
 
 <h3>Points and Functions</h3>
 <p>See these points?</p>
@@ -234,7 +234,7 @@ Enough talk! Enough maths! Here are some animations -
 
 <table>
   <tr>
-    <th scope="col" align = "center">$\mathsf{L = 10, \eta = 0.05}$</th>    
+    <th scope="col" align = "center">$\mathsf{L = 5, \eta = 0.05}$</th>    
   </tr>  
   <tr>    
   </tr>
@@ -309,4 +309,4 @@ To cap it off here is our neural net trying to fit over some other functions.
   </tr>
 </table>
 
-Here's the <a href="https://github.com/12345pnp/function_approximation_using_neural_networks/blob/master/neural_approx_1D.ipynb">notebook</a> where you can play with different functions.
+Here's the <a href="https://colab.research.google.com/github/12345pnp/function_approximation_using_neural_networks/blob/master/neural_approx_1D.ipynb">notebook</a> where you can play with different functions.
