@@ -9,6 +9,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 twitter_username: 12345pnp
 github_username:  12345pnp
+youtube_username: ComputePlay
 
 minima:
   date_format: "%b %-d, %Y"
