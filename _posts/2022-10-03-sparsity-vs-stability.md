@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sparsity vs Stability"
-categories: comp play
+categories: convex optimization
 ---
 
 Stable L2             |  Sparse L1
